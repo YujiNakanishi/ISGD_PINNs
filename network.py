@@ -45,7 +45,7 @@ class PINNs(nn.Module):
         _input3 = torch.cat((_input3x, _input3y), dim = 1)
 
         _input4x = torch.rand(c.BC_num, 1)
-        _input4y = torch.zeros(c.BC_num, 1)
+        _input4y = torch.ones(c.BC_num, 1)
         _input4 = torch.cat((_input4x, _input4y), dim = 1)
 
         _input = torch.cat((_input1, _input2, _input3, _input4)).to("cuda")

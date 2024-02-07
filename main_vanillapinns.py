@@ -22,4 +22,4 @@ for epoch in range(c.epochs):
     print(str(epoch)+"\t"+str(loss.item()))
 
 loss_history = pd.Series(loss_history)
-loss_history.to_csv("vanilla_pinns")
+loss_history.to_csv("vanilla_pinns.csv")
