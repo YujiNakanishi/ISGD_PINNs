@@ -1,0 +1,1 @@
+PDE_num = 1000 #number of sampling point for PDE loss
