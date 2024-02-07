@@ -1,3 +1,6 @@
-PDE_num = 1000 #number of sampling point for PDE loss
+PDE_num = 4000 #number of sampling point for PDE loss
 BC_num = 100 #number of sampling point for BC loss
-iteration = 1000
+
+lr = 0.0005 #learning rate of Adam
+
+epochs = 1000
