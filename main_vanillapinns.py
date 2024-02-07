@@ -3,7 +3,7 @@ import network
 import config as c
 import pandas as pd
 
-net = network.VanillaPINNs().to("cuda")
+net = network.PINNs().to("cuda")
 
 opt = torch.optim.Adam(net.parameters(), lr = c.lr)
 

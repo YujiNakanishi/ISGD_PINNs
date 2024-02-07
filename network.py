@@ -3,7 +3,7 @@ import torch.nn as nn
 import config as c
 
 
-class VanillaPINNs(nn.Module):
+class PINNs(nn.Module):
     def __init__(self):
         super().__init__()
 
